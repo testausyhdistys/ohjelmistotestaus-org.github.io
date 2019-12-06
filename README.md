@@ -1,2 +1,2 @@
-# testausyhdistys.github.io
-Web site for http://testausyhdistys.fi
+# ohjelmistotestaus-org.github.io
+Web site for https://ohjelmistotestaus.org
