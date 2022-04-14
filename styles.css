@@ -46,7 +46,9 @@ h2 {
     color: black;
 }
 
-
+table {
+    width: 50%;
+}
 
 .center {
     position: absolute;
