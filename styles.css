@@ -47,13 +47,16 @@ h2 {
 }
 
 
-table {
-    width:100%
-    background: "rgb(0, 0, 0)"; /* fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    padding: 0px;
-        }
 
+.center {
+    position: absolute;
+    top: 0; left: 300; right: 50; left: 0; 
+    text-align: center; 
+    border: 0px solid #ccc; 
+    height: 100%; 
+    width: 100%; 
+    vertical-align: middle;
+}
 
 .descr  div {
     width: 40%;
