@@ -2,55 +2,96 @@ html {
   font-size: 20;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Lato', sans-serif;
-  color: white;
+  text-align: center;
+  width: 80%;
+  color: black;
 
-
-  background: url(img/Image.JPG) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
-
+li {
+    list-style-type: none;
+    padding: 12;
+}
 
 h1 {
     font-size: 150;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 a {
     font-size: 20;
     text-align: center;
-    color: white;
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
 }
 
 a.selected {
     font-size: 20;
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 h4 {
-    color: white;
+    color: black;
 }
 
 h3 {
-    color: white;
+    color: black;
 }
 
 h2 {
     font-size: 30;
-    color: white;
+    color: black;
 }
 
 
 table {
-    width:100%"
+    width:100%
     background: "rgb(0, 0, 0)"; /* fallback color */
     background: rgba(0, 0, 0, 0.5);
     padding: 0px;
         }
+
+
+.descr  div {
+    width: 40%;
+    text-align: center;
+}        
+
+/** Bottom of the page **/
+
+ /** Waves **/
+  svg {
+    width: 100%;
+    float:left;
+    clear:none; }
+
+  .main-footer {
+    background-color: #666666;
+    width: 97%;
+    padding: 20px;
+    display: grid;
+    border-width: 0px;
+    float:left;
+    clear:none;
+    text-align: center; }
+
+  .main-footer h1 {
+    color: #FFFFFF; }
+
+  .main-footer p {
+    margin: 0 0 1em 0; 
+    padding: 5;}
+
+
+  .main-footer a:link,
+  .main-footer a:visited {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none; }
+
+  .main-footer a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;}
