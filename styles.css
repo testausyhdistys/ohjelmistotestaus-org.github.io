@@ -65,18 +65,21 @@ h1 {
   font-size: 2rem;
   text-align: center;
   color: black;
+  padding-bottom: 1ex;
 }
 
-h4 {
+h2 {
+  font-size: 1.7rem;
   color: black;
 }
 
 h3 {
+  font-size: 1.5rem;
   color: black;
 }
 
-h2 {
-  font-size: 30;
+h4 {
+  font-size: 1.2rem;
   color: black;
 }
 
@@ -94,7 +97,7 @@ header {
   padding-top: 1rem;
 }
 
-/* Main logo */
+/* Header logo */
 header .logo {
   margin: 0 auto;
 }
@@ -104,6 +107,7 @@ main {
   margin: 0 auto;
   max-width: 60rem;
   padding: 1rem;
+  padding-top: 0;
 }
 
 .introduction {
@@ -186,7 +190,8 @@ svg {
 .main-footer {
   background-color: var(--color-blue-10);
   width: 100%;
-  padding: 20px;
+  padding: 2rem;
+  padding-bottom: 5rem;
   display: grid;
   border-width: 0px;
   float: left;
@@ -195,7 +200,6 @@ svg {
 }
 
 .main-footer h1 {
-  padding-top: 2rem;
   color: black;
   font-size: 1.5rem;
   letter-spacing: 0.05rem;
