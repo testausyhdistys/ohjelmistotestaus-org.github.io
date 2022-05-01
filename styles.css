@@ -1,102 +1,106 @@
 html {
   font-size: 20;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   width: 80%;
   color: black;
-
 }
 
 li {
-    list-style-type: none;
-    padding: 12;
+  list-style-type: none;
+  padding: 12;
 }
 
 h1 {
-    font-size: 150;
-    text-align: center;
-    color: black;
+  font-size: 150;
+  text-align: center;
+  color: black;
 }
 
 a {
-    font-size: 20;
-    text-align: center;
-    color: black;
-    text-decoration: underline;
+  font-size: 20;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
 }
 
 a.selected {
-    font-size: 20;
-    text-align: center;
-    color: black;
-    text-decoration: none;
+  font-size: 20;
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
 h4 {
-    color: black;
+  color: black;
 }
 
 h3 {
-    color: black;
+  color: black;
 }
 
 h2 {
-    font-size: 30;
-    color: black;
+  font-size: 30;
+  color: black;
 }
 
 .huu {
-    margin: auto;  
-    padding: 20px;
-    width: 60%;
+  margin: auto;
+  padding: 20px;
+  width: 60%;
 }
 
 .center {
-    position: absolute;
-    text-align: center; 
-    border: 0px solid #ccc; 
-    height: 100%; 
-    width: 100%; 
+  position: absolute;
+  text-align: center;
+  border: 0px solid #ccc;
+  height: 100%;
+  width: 100%;
 }
 
-.descr  div {
-    width: 40%;
-    text-align: center;
-}        
+.descr div {
+  width: 40%;
+  text-align: center;
+}
 
 /** Bottom of the page **/
 
- /** Waves **/
-  svg {
-    width: 100%;
-    float:left;
-    clear:none; }
+/** Waves **/
+svg {
+  width: 100%;
+  float: left;
+  clear: none;
+}
 
-  .main-footer {
-    background-color: #666666;
-    width: 97%;
-    padding: 20px;
-    display: grid;
-    border-width: 0px;
-    float:left;
-    clear:none;
-    text-align: center; }
+.main-footer {
+  background-color: #666666;
+  width: 97%;
+  padding: 20px;
+  display: grid;
+  border-width: 0px;
+  float: left;
+  clear: none;
+  text-align: center;
+}
 
-  .main-footer h1 {
-    color: #FFFFFF; }
+.main-footer h1 {
+  color: #ffffff;
+}
 
-  .main-footer p {
-    margin: 0 0 1em 0; 
-    padding: 5;}
+.main-footer p {
+  margin: 0 0 1em 0;
+  padding: 5;
+}
 
+.main-footer a:link,
+.main-footer a:visited {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
 
-  .main-footer a:link,
-  .main-footer a:visited {
-    color: #FFFFFF;
-    font-weight: bold;
-    text-decoration: none; }
-
-  .main-footer a:hover {
-    color: #FFFFFF;
-    text-decoration: underline;}
+.main-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
