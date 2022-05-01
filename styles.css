@@ -103,7 +103,6 @@ header {
 /* Main logo */
 header .logo {
   margin: 0 auto;
-  max-width: 35rem;
 }
 
 /* Main page contents */
@@ -117,10 +116,6 @@ main {
   margin: 0 auto;
   padding-top: 1rem;
   max-width: 40rem;
-}
-
-.introduction h2 {
-  text-align: center;
 }
 
 .introduction p {
