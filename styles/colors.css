@@ -1,0 +1,69 @@
+/* ----------------------------------- */
+/* Global custom properties for colors */
+:root {
+  /* grayscale (a letter version) */
+  --color-grayscale-0: hsla(0, 0%, 5%, 1);
+  --color-grayscale-1: hsla(0, 0%, 10%, 1);
+  --color-grayscale-2: hsla(0, 0%, 20%, 1);
+  --color-grayscale-3: hsla(0, 0%, 30%, 1);
+  --color-grayscale-4: hsla(0, 0%, 40%, 1);
+  --color-grayscale-5: hsla(0, 0%, 50%, 1);
+  --color-grayscale-6: hsla(0, 0%, 60%, 1);
+  --color-grayscale-7: hsla(0, 0%, 70%, 1);
+  --color-grayscale-8: hsla(0, 0%, 80%, 1);
+  --color-grayscale-9: hsla(0, 0%, 90%, 1);
+  --color-grayscale-10: hsla(0, 0%, 95%, 1);
+
+  /* greyscale (e letter version) */
+  --color-greyscale-0: hsla(0, 0%, 5%, 1);
+  --color-greyscale-1: hsla(0, 0%, 10%, 1);
+  --color-greyscale-2: hsla(0, 0%, 20%, 1);
+  --color-greyscale-3: hsla(0, 0%, 30%, 1);
+  --color-greyscale-4: hsla(0, 0%, 40%, 1);
+  --color-greyscale-5: hsla(0, 0%, 50%, 1);
+  --color-greyscale-6: hsla(0, 0%, 60%, 1);
+  --color-greyscale-7: hsla(0, 0%, 70%, 1);
+  --color-greyscale-8: hsla(0, 0%, 80%, 1);
+  --color-greyscale-9: hsla(0, 0%, 90%, 1);
+  --color-greyscale-10: hsla(0, 0%, 95%, 1);
+
+  /* blue */
+  --color-blue-0: hsla(194, 74%, 5%, 1);
+  --color-blue-1: hsla(194, 74%, 10%, 1);
+  --color-blue-2: hsla(194, 74%, 20%, 1);
+  --color-blue-3: hsla(194, 74%, 30%, 1);
+  --color-blue-4: hsla(194, 74%, 40%, 1);
+  --color-blue-5: hsla(194, 74%, 50%, 1);
+  --color-blue-6: hsla(194, 74%, 60%, 1);
+  --color-blue-7: hsla(194, 74%, 70%, 1);
+  --color-blue-8: hsla(194, 74%, 80%, 1);
+  --color-blue-9: hsla(194, 74%, 90%, 1);
+  --color-blue-10: hsla(195, 73%, 95%, 1);
+
+  /* yellow */
+  --color-yellow-0: hsla(53, 100%, 5%, 1);
+  --color-yellow-1: hsla(53, 100%, 10%, 1);
+  --color-yellow-2: hsla(53, 100%, 20%, 1);
+  --color-yellow-3: hsla(53, 100%, 30%, 1);
+  --color-yellow-4: hsla(53, 100%, 40%, 1);
+  --color-yellow-5: hsla(53, 100%, 50%, 1);
+  --color-yellow-6: hsla(53, 100%, 60%, 1);
+  --color-yellow-7: hsla(53, 100%, 70%, 1);
+  --color-yellow-8: hsla(53, 100%, 80%, 1);
+  --color-yellow-9: hsla(53, 100%, 90%, 1);
+  --color-yellow-10: hsla(53, 100%, 95%, 1);
+
+  /* red */
+  --color-red-0: hsla(360, 100%, 5%, 1);
+  --color-red-1: hsla(360, 100%, 10%, 1);
+  --color-red-2: hsla(360, 100%, 20%, 1);
+  --color-red-3: hsla(360, 100%, 30%, 1);
+  --color-red-4: hsla(360, 100%, 40%, 1);
+  --color-red-5: hsla(0, 100%, 50%, 1);
+  --color-red-6: hsla(360, 100%, 60%, 1);
+  --color-red-7: hsla(360, 100%, 70%, 1);
+  --color-red-8: hsla(360, 100%, 80%, 1);
+  --color-red-9: hsla(360, 100%, 90%, 1);
+  --color-red-10: hsla(360, 100%, 95%, 1);
+
+}
