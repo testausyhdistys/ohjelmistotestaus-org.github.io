@@ -1,102 +1,226 @@
+/* ----------------------------------- */
+/* Global custom properties */
+:root {
+  --font-fallback: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji";
+
+  --global-content-padding: 1rem;
+  --global-font-size-regular: 20px;
+}
+
+/* ----------------------------------- */
+/* Core element styles */
+
+body,
 html {
-  font-size: 20;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  width: 80%;
+  min-height: 100vh;
+}
+
+html {
+  font-family: "Lato", "Open Sans", var(--font-fallback);
+}
+
+body {
+  font-size: var(--global-font-size-regular);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  background-color: white;
   color: black;
 
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-li {
-    list-style-type: none;
-    padding: 12;
+p {
+  padding: 1ex 0;
 }
 
-h1 {
-    font-size: 150;
-    text-align: center;
-    color: black;
-}
-
+/* Links */
 a {
-    font-size: 20;
-    text-align: center;
-    color: black;
-    text-decoration: underline;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
 }
 
 a.selected {
-    font-size: 20;
-    text-align: center;
-    color: black;
-    text-decoration: none;
+  font-size: 20;
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
-h4 {
-    color: black;
+li {
+  list-style-type: none;
 }
 
-h3 {
-    color: black;
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  padding-bottom: 1ex;
 }
 
 h2 {
-    font-size: 30;
-    color: black;
+  font-size: 1.7rem;
+  color: black;
 }
 
-.huu {
-    margin: auto;  
-    padding: 20px;
-    width: 60%;
+h3 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: black;
 }
 
 .center {
-    position: absolute;
-    text-align: center; 
-    border: 0px solid #ccc; 
-    height: 100%; 
-    width: 100%; 
+  text-align: center;
 }
 
-.descr  div {
-    width: 40%;
-    text-align: center;
-}        
+.descr div {
+  width: 40%;
+  text-align: center;
+}
 
-/** Bottom of the page **/
+/* Top header area */
+header {
+  padding-top: 1rem;
+}
 
- /** Waves **/
-  svg {
-    width: 100%;
-    float:left;
-    clear:none; }
+/* Header logo */
+header .logo {
+  margin: 0 auto;
+}
 
-  .main-footer {
-    background-color: #666666;
-    width: 97%;
-    padding: 20px;
-    display: grid;
-    border-width: 0px;
-    float:left;
-    clear:none;
-    text-align: center; }
+/* Main page contents */
+main {
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 1rem;
+  padding-top: 0;
+}
 
-  .main-footer h1 {
-    color: #FFFFFF; }
+.introduction {
+  margin: 0 auto;
+  padding-top: 1rem;
+  max-width: 40rem;
+}
 
-  .main-footer p {
-    margin: 0 0 1em 0; 
-    padding: 5;}
+.introduction p {
+  line-height: 1.6;
+}
 
+/* Also on Twitter */
+.elsewhere-twitter {
+  margin: 0 auto;
+  max-width: 45rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
-  .main-footer a:link,
-  .main-footer a:visited {
-    color: #FFFFFF;
-    font-weight: bold;
-    text-decoration: none; }
+.elsewhere-twitter a:link,
+.elsewhere-twitter a:visited {
+  display: inline-block;
+  padding: 1ex;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+}
 
-  .main-footer a:hover {
-    color: #FFFFFF;
-    text-decoration: underline;}
+.elsewhere-twitter a:focus,
+.elsewhere-twitter a:hover {
+  background-color: var(--color-grayscale-10);
+}
+
+/* Split Twitter icon to another row */
+.elsewhere-twitter .icon-twitter-square {
+  display: block;
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+  text-decoration: none;
+}
+
+/* Links to recent news & topics */
+.recent-links {
+  margin: 0 auto;
+  max-width: 45rem;
+  padding: 0;
+  display: grid;
+  gap: 1ex;
+  font-weight: 600;
+}
+
+.recent-links li {
+  background-color: antiquewhite;
+}
+
+.recent-links a {
+  display: inline-block;
+  padding: 1ex;
+  width: 100%;
+}
+
+.recent-links a:focus,
+.recent-links a:hover {
+  background-color: var(--color-grayscale-10);
+}
+
+/* Bottom of the page */
+
+/* Waves */
+svg {
+  width: 100%;
+  float: left;
+  clear: none;
+  color: red;
+}
+
+/* Footer contents */
+.main-footer {
+  background-color: var(--color-blue-10);
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 5rem;
+  display: grid;
+  border-width: 0px;
+  float: left;
+  clear: none;
+  text-align: center;
+}
+
+.main-footer h1 {
+  color: black;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.main-footer p {
+  margin: 0;
+}
+
+.main-footer ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+.main-footer a:link,
+.main-footer a:visited {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-footer a:focus,
+.main-footer a:hover {
+  text-decoration: underline;
+}
